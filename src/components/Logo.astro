@@ -1,8 +1,16 @@
----
-import config from "../config";
----
+<style>
+  img {
+    display: block;
+    width: 75px;
+  }
 
-<!-- SETUP: If you have a logo, replace this component with it -->
-<span>
-  {config.site.title}
-</span>
+  @media screen and (max-width: 520px) {
+    img {
+      display: none;
+    }
+  }
+</style>
+
+<a href="/">
+  <img alt="Blog Logo" src="/assets/logo.webp" width="75" height="50" />
+</a>

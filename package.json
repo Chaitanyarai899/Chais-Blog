@@ -1,28 +1,21 @@
 {
-  "name": "chaisblog",
+  "name": "astro-blog-template",
+  "version": "0.0.1",
   "private": true,
-  "type": "module",
-  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "start": "astro dev",
+    "build": "astro build",
     "preview": "astro preview",
-    "post:create": "node scripts/create_post.mjs"
-  },
-  "devDependencies": {
-    "@astrojs/check": "0.7.0",
-    "@astrojs/rss": "4.0.6",
-    "@astrojs/sitemap": "3.1.5",
-    "@astrojs/solid-js": "4.2.0",
-    "@unocss/reset": "0.60.3",
-    "astro": "4.9.2",
-    "prettier-plugin-astro": "0.14.0",
-    "slug": "9.1.0",
-    "typescript": "5.4.5",
-    "unocss": "0.60.3"
+    "astro": "astro"
   },
   "dependencies": {
-    "fuse.js": "7.0.0",
-    "solid-js": "1.8.17"
+    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/svelte": "^5.0.0",
+    "astro": "^4.0.1",
+    "reading-time": "^1.5.0",
+    "rehype-external-links": "^3.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-smartypants": "^2.0.0"
   }
 }

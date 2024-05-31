@@ -1,38 +1,19 @@
----
-import config from "../config";
----
-
-<footer class="flex flex-col gap-5 py-10 mx-auto max-w-3xl w-full">
-  <!-- TODO: move into a fixed FAB button, outside of footer -->
-  <div class="text-right">
-    <button onclick="scrollToTop()">Back to top</button>
-  </div>
-  <div class="text-center">
-    &copy; {new Date().getFullYear()}
-    {config.site.title}
-    {
-      config.layout.footer.showPoweredBy && (
-        <>
-          - powered by{" "}
-          <a
-            class="text-sky-700 dark:text-sky-300 italic transition-all hover:brightness-80"
-            href="https://github.com/chaitanyarai899/chais-blog"
-            target="_blank"
-          >
-            nanoblog
-          </a>
-        </>
-      )
-    }
-  </div>
+<footer>
+  <span>
+    &copy; {new Date().getFullYear()} Your Blog.
+    Powered by <a href="https://astro.build" target="_blank" rel="noopener">Astro</a>.
+    Template by <a href="https://www.twitter.com/Charca" target="_blank" rel="noopener">Maxi Ferreira</a>.
+  </span>
 </footer>
 
-<script is:raw>
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
+<style>
+  footer {
+    color: var(--text-secondary);
+    font-size: .8em;
+    margin: 1em auto;
+    max-width: 1400px;
+    padding: 1em 2em;
+    text-align: center;
+    width: 100%;
   }
-</script>
+</style>

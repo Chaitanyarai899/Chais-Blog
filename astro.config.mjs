@@ -1,28 +1,26 @@
-import sitemap from "@astrojs/sitemap";
-import solidJs from "@astrojs/solid-js";
-import { defineConfig } from "astro/config";
-import unocss from "unocss/astro";
-
-import config from "./src/config";
+import { defineConfig } from 'astro/config'
+import svelte from '@astrojs/svelte'
+import mdx from '@astrojs/mdx'
+import remarkGfm from 'remark-gfm'
+import remarkSmartypants from 'remark-smartypants'
+import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    unocss({
-      injectReset: true,
-    }),
-    sitemap(),
-    solidJs(),
-  ],
-  site: config.site.url,
-  base: config.site.baseUrl,
-  prefetch: {
-    prefetchAll: true,
-    defaultStrategy: "hover",
-  },
-  /* markdown: {
+  site: 'https://astro-blog-template.netlify.app',
+  integrations: [mdx(), svelte()],
+  markdown: {
     shikiConfig: {
-      experimentalThemes: config.post.code.theme,
+      theme: 'nord',
     },
-  }, */
-});
+    remarkPlugins: [remarkGfm, remarkSmartypants],
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          target: '_blank',
+        },
+      ],
+    ],
+  },
+})
