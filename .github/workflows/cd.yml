@@ -29,6 +29,6 @@ jobs:
       - name: Generate page
         run: pnpm build
       - name: Deploy page
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: chaitanyarai899/github-pages-deploy-action@v4
         with:
           folder: dist
