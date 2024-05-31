@@ -11,8 +11,10 @@ image: /assets/imgg.png
 
 # Exploring neo4j-php/Bolt: A PHP Library for Neo4j
 
+![neo4j](/assets/blog/imgg.png)
+
 If you're working with PHP and need to connect to a Neo4j database, the **neo4j-php/Bolt** library is a fantastic tool to consider. This PHP library allows you to connect to a graph database over a TCP socket using the Bolt protocol, making it easier to handle data that’s connected by relationships rather than just tables.
-!(neo4j)[assets/imgg.png]
+
 ## Why Neo4j?
 
 Before diving into Bolt, let’s understand Neo4j. It’s a graph database engine that excels in handling data with complex relationships. Unlike traditional databases that use tables, Neo4j uses a graph structure, which can be more intuitive and efficient for certain types of data.
