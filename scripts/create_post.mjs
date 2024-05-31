@@ -14,7 +14,7 @@ title: ${title}
 slug: ${slug}
 description: Your description
 tags:
-  - Chais-Blog
+  - nanoblog
 published_at: ${now.toISOString()}
 last_modified_at: ${now.toISOString()}
 ---

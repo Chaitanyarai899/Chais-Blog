@@ -6,18 +6,18 @@ export default {
   site: {
     // SETUP:
     /// Your public page URL
-    url: "https://marvin-j97.github.io/Chais-Blog",
+    url: "https:/github.com/chaitanyarai899/chais-blog",
 
     // SETUP:
     baseUrl: "/Chais-Blog",
 
     // SETUP:
     /// Your site's title
-    title: "Chais-Blog",
+    title: "ChaisBlog",
 
     // SETUP:
     /// Default site description
-    description: "Chais-Blog is a lightweight blog template for Astro",
+    description: "My blog webiste",
   },
 
   layout: {
