@@ -6,7 +6,7 @@ tags:
   - php-and-neo4j
 published_at: 2024-05-31T13:58:46.857Z
 last_modified_at: 2024-05-31T13:58:46.857Z
-image: /assets/imgg.png
+image: /assets/blog/imgg.png
 ---
 
 # Exploring neo4j-php/Bolt: A PHP Library for Neo4j
