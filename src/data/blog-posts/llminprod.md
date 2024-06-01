@@ -13,6 +13,9 @@ image: /assets/blog/imgg.png
 # Deploying LLMs in Production: The Anatomy of LLM Applications
 
 ## Introduction
+
+![llm](/assets/blog/llm.jpg)
+
 Large Language Models (LLMs) are cutting-edge deep learning algorithms designed for a wide array of NLP (Natural Language Processing) tasks. These models leverage transformer architectures and are trained on massive datasets, giving them the "large" moniker. Their capabilities include text recognition, translation, prediction, and generation. Essentially, LLMs are sophisticated neural networks, modeled after the human brain, consisting of layered nodes akin to neurons.
 
 ## LLM Applications and Use Cases
