@@ -11,7 +11,7 @@ image: /assets/blog/imgg.png
 
 # Mitigating Hallucination in Large Language Models using Retrieval-Augmented Generation (RAG)
 
-![llm](/assets/blog/llamaindex.jpg)
+![llm](/assets/blog/llamaindex.png)
 
 ## Introduction
 
